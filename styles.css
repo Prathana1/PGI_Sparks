@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to left, #fff 85%, #FE7757 20%);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.contact-title{
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    background: linear-gradient(to top, #fff 80%, #FE7757 20%);
+}
+
+.contact-title h1 {
+    font-size: 32px;
+    line-height: 10px;
+   
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #FEF58C ;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #FEF58C;
+    cursor: pointer;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    height: 100px;
+    width: 100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+    line-height: 110px;
+}
+
+a i {
+  transition: all 0.3s linear;  
+}
+a:hover i {
+    transform: scale(1.4);
+}
+
+.do {
+    background: linear-gradient(to left, #fff 85%, #FE7757 20%);
+    background-image: url(images/donate.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-up-form
+	{
+		width:450px;
+		box-shadow: 0 0 3px 0 rgba(255, 0, 0, 0.8);
+		background:#fff;
+		padding:20px;
+		margin:5% auto 0;
+		text-align:center;
+		border-radius: 35px; 
+		opacity:0.8;
+		}
+
+        .button-container {
+            text-align: center;
+            margin: 2px auto;
+          }
+          .button-container button:hover {
+            cursor: pointer;
+          }

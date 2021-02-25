@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>Contact form</title>
+</head>
+<body>
+    <div>
+        <h1>contact</h1>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="contact-form-handler.php">
+            <input name="name" type="text" class="form-control" placeholder="your name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="your email" required>
+            <br>
+            <textarea name="message" class="form-control" placeholder="message"
+            rows="4" required></textarea> <br>
+
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </div>
+    <div class="wrapper">
+      
+          <a href="https://www.linkedin.com/in/prathana-jena-5788b4195/" target="_blank">
+            <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.facebook.com/prathana.jena" target="_blank">
+            <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/__prathana.jena__/" target="_blank">
+            <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+          </a>
+    
+    </div>
+</body>
+</html>
